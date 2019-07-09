@@ -1,5 +1,5 @@
 #!/bin/bash
-ssh -tt hexunix@52.175.55.97 <<EOF
+ssh -tt userName@ipAddress <<EOF
  cd ~/simple-node-app
  git pull
  npm install
