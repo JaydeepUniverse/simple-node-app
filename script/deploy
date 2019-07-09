@@ -1,5 +1,5 @@
 #!/bin/bash
-ssh ezderman@NODE.SERVER.IP <<EOF
+ssh hexunix@52.175.55.97 <<EOF
  cd ~/node-app
  git pull
  npm install
